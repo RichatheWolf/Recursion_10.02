@@ -51,7 +51,6 @@ public class MondrianArtGenerator{
 		int endY = (int) (y + length * Math.sin(angle));
 		Graphics graphics = g.create();
 		graphics.translate(x, y);
-		graphics.rotate(angle);
 		graphics.fillRect(0, -thickness / 2, length, thickness);
 		graphics.dispose();
 	}
